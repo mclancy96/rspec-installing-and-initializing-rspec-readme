@@ -106,12 +106,37 @@ It’s a great way to check that everything is set up correctly. If you see erro
 - **Didn’t run `rspec --init`?** You won’t have the `.rspec` or `spec_helper.rb` files. Rerun the command.
 - **Accidentally deleted `spec_helper.rb`?** No worries—just run `rspec --init` again.
 
-## Practice Prompts
+## Getting Hands-On
 
-1. Add RSpec to a new or existing Ruby project. What files get created? (Use file path comments in your examples!)
-2. Try running `rspec` before and after adding a test file. What changes? Add a minimal test (even just `expect(true).to eq(true)`) so you can see an example being run and get feedback from RSpec.
-3. Open `.rspec` and `spec/spec_helper.rb` in your editor. What do you notice? Add a file path comment at the top of each file for practice.
-4. If you run into an error, what steps can you take to troubleshoot?
+This lesson is all about making sure you can install and initialize RSpec in a Ruby project, and verify your setup works.
+
+**To get started:**
+
+1. **Fork and Clone** this repository to your own GitHub account and local machine.
+2. **Install dependencies:**
+
+    ```sh
+    bundle install
+    ```
+
+3. **Initialize RSpec (if not already initialized):**
+
+    ```sh
+    rspec --init
+    ```
+
+4. **Run the specs:**
+
+    ```sh
+    bin/rspec
+    ```
+
+5. **Check the output:**
+
+   - If all specs pass, RSpec is set up correctly!
+   - If you see errors, review the steps above and check your Gemfile, .rspec, and spec/spec_helper.rb files.
+
+You can also try adding your own simple spec to the `spec` directory to experiment further.
 
 ---
 
