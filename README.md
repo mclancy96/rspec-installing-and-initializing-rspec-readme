@@ -1,6 +1,6 @@
 # RSpec: Installing and Initializing RSpec
 
-Welcome to Lesson 2! If Lesson 1 was about why testing matters, this lesson is all about rolling up your sleeves and getting RSpec set up in your own Ruby project. Don’t worry—this is easier than assembling IKEA furniture, and you won’t need an Allen wrench!
+If Lesson 1 was about why testing matters, this lesson is all about rolling up your sleeves and getting RSpec set up in your own Ruby project. Don’t worry—this is easier than assembling IKEA furniture, and you won’t need an Allen wrench!
 
 ---
 
